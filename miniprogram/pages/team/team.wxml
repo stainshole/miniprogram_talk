@@ -1,0 +1,7 @@
+<!--pages/team/team.wxml-->
+<text>pages/team/team.wxml</text>
+<view>
+    <block wx:for="{{teamList}}" wx:key="id">
+        <x-example teamList="{{item}}"></x-example>
+    </block>
+</view>

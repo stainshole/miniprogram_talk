@@ -1,0 +1,27 @@
+<!--components/example/example.wxml-->
+
+<view class="cu-card case">
+  <view class="cu-item shadow">
+    <view class="image">
+      <image src="{{teamList.headImg}}" mode="widthFix"></image>
+      <view class="cu-tag bg-blue">{{teamList.person_count}}人</view>
+      <view class="cu-bar bg-shadeBottom">
+        <text class="text-cut">{{teamList.motto}}</text>
+      </view>
+    </view>
+    <view class="cu-list menu-avatar">
+      <view class="cu-item">
+        <image class="cu-avatar round lg" src="{{teamList.LeaderImg}}"></image>
+        <view class="content flex-sub">
+          <view class="text-grey">{{teamList.name}}</view>
+          <view class="text-gray text-sm flex justify-between">
+            队长：{{teamList.teamLeader}}
+            <view class="text-gray text-sm">
+              <text>id：{{teamList.id}}</text> 
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

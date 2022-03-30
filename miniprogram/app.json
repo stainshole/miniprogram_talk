@@ -1,0 +1,43 @@
+{
+  
+  "pages": [
+    "pages/home/home",
+    "pages/team/team",
+    "pages/game/game",
+    "pages/user_info/user_info"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1E90FF",
+    "navigationBarTitleText": "title",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#1296db",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "home",
+      "iconPath": "images/index.png",
+      "selectedIconPath": "images/index_sel.png"
+    }, {
+      "pagePath": "pages/game/game",
+      "text": "game",
+      "iconPath": "images/game.png",
+      "selectedIconPath": "images/game_sel.png"
+    }, {
+      "pagePath": "pages/team/team",
+      "text": "team",
+      "iconPath": "images/team.png",
+      "selectedIconPath": "images/team_sel.png"
+  }, {
+    "pagePath": "pages/user_info/user_info",
+    "text": "info",
+    "iconPath": "images/user.png",
+    "selectedIconPath": "images/user_sel.png"
+  }]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
